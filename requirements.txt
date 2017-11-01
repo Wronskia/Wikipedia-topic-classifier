@@ -1,0 +1,6 @@
+matplotlib
+scikit-learn
+keras
+regex
+nltk
+wikipedia
