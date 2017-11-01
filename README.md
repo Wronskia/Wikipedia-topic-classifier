@@ -74,3 +74,7 @@ here are the results of the models on train/val :
 | class 1      | 0.91          | 0.99               | 0.95                | 100                 |
 | Avg/Total    | 0.95          | 0.94               | 0.94                | 200                 |
 
+# TODO
+
+- change the extraction method
+- test the tool on other examples than computer science and sports to discover bugs and correct them
