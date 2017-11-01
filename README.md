@@ -52,7 +52,7 @@ here are the results of the models on train/val :
 | Logistic Reg | 0.998              | 0.99                |
 | Bayes        | 0.977              | 0.93                |
 | Fasttext+pretrain     | 0.997              | 0.972               |
-| neuralnet    | 0.9975             | 0.98                |
+| cnn    | 0.9975             | 0.98                |
 
 - all the models are using 1-gram features with 20000 vocab size
 
