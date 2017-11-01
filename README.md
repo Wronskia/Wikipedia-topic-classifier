@@ -6,7 +6,10 @@ This tool performs binary classification among wikipedia articles. Given 2 artic
 ## Requirements
 
 - Run `pip -r install requirements.txt`
+## Features
 
+- This tool supports :  tfidf features, pretrained word embedding features 1 and 2 grams
+- For the pretrain word embedding, I used wikipedia glove : https://nlp.stanford.edu/projects/glove/ to be put in tools/glove.6B/
 
 ## Example use case
 
@@ -36,7 +39,7 @@ Actually, first run the script with dump_files = True since it takes a bit of ti
 ## Running example on Computer Science and Sports
 
 - First please unzip data.zip
-
+- Download pretrain glove embedding https://nlp.stanford.edu/projects/glove/  and put in tools/glove.6B/
 - then run  `python3 run.py Sports Computer_Science test.txt False`
 
 ## Models and Results
