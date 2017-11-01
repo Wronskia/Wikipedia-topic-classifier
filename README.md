@@ -18,12 +18,12 @@ This tool performs binary classification among wikipedia articles. Given 2 artic
 `python3 run.py Sports Computer_Science test.txt True`
 
 - run.py takes 4 arguments :
-1/  The first topic
-2/  The second topic
-3/  Test file defined by the user following the format of the test.txt provided here for the running example
-4/  dump_files : if False will not save the cleaned dataset
+- 1/  The first topic
+- 2/  The second topic
+- 3/  Test file defined by the user following the format of the test.txt provided here for the running example
+- 4/  dump_files : if False will not save the cleaned dataset
                             
-Actually, first run the script with dump_files = True since it takes a bit of time to download all 2000 articles and clean them. it will store the articles in data/link1 and data/link2, data/test1 and data/test2
+Actually, first run the script with dump_files = True since it takes a bit of time to download all 2000 articles and clean them. it will store the articles in data/link1 and data/link2, data/test1 and data/test2. For the running example you can use the zip file I provide.
 
 - Since one might overfit to the validation set by tuning the parameters, all the articles in test.txt (200 articles) are not used in the train/val and comes from another distribution (I used a different method to extract them)
 
