@@ -37,12 +37,13 @@ Actually, first run the script with dump_files = True since it takes a bit of ti
 - once you saved the datasets, you can play with those by tuning depending on the topics chosen.
 
 ## Running example on Computer Science and Sports
-
+- `git clone https://github.com/Wronskia/Wikipedia-topic-classifier`
 - First please unzip data.zip
 - Download pretrain glove embedding https://nlp.stanford.edu/projects/glove/  and put in tools/glove.6B/
 - then run  `python3 run.py Sports Computer_Science test.txt False`
 
 ## Models and Results
+I decided not the include here some models I tried like lightgbm or fasttext from Facebook. Also, I used GradientBoostingClassifier instead of xgboost because i had some installation issues on my mac with xgboost
 
 here are the results of the models on train/val :
 
