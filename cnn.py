@@ -11,7 +11,7 @@ from sklearn.metrics import classification_report
 
 
 def run_cnn(pretrained=False, embedding_dims=50, val_split=0.2, max_n_words=20000, maxlen=1000, ngram_range=1):
-    nb_epoch = 6
+    nb_epoch = 4
     batch_size = 60
 
     if pretrained:
