@@ -51,9 +51,10 @@ here are the results of the models on train/val :
 | Svm          | 0.998              | 0.985               |
 | Logistic Reg | 0.998              | 0.99                |
 | Bayes        | 0.977              | 0.93                |
-| Fasttext     | 0.997              | 0.972               |
+| Fasttext+pretrain     | 0.997              | 0.972               |
 | neuralnet    | 0.9975             | 0.98                |
 
+- all the models are using 1-gram features with 20000 vocab size
 
 ## Baseline Naive Bayes result on test set :
 
